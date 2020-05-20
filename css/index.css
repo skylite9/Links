@@ -1,0 +1,43 @@
+.reg-flex-container, .training-flex-container, .reading-flex-container {
+	display: flex;
+}
+.one, .two, .three, .four, .five {
+	flex: 1 1 100px;;
+	border: 2px solid #ff6a00bf;
+    padding: 0px 20px 10px;
+}
+.one a, .two a, .three a, .four a, .five a {
+	display: block;
+	padding-bottom: 10px;
+}
+@font-face {
+  font-family: 'PermanentMarker';
+  src: url('../fonts/PermanentMarker-Regular.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'B612-Regular';
+  src: url('../fonts/B612-Regular.ttf')  format('truetype');
+}
+/**@font-face {
+  font-family: 'B612-Bold';
+  src: url('../fonts/B612-Bold.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Pangolin';
+  src: url('../fonts/Pangolin-Regular.ttf')  format('truetype');
+}
+**/
+H1, H2 {
+  font-family: 'PermanentMarker', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+a {
+  font-family: 'B612-Regular', sans-serif;
+  text-decoration: none;
+}
+
+a:link    {color:#004fff;}
+a:visited {color:#004fff;}
+a:hover   {color:#004fff;}
+a:active  {color:#004fff;}
