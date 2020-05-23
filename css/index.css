@@ -1,4 +1,4 @@
-.reg-flex-container, .training-flex-container, .reading-flex-container {
+.reg-flex-container, .training-flex-container, .reading-flex-container, .government-flex-container {
 	display: flex;
 }
 .one, .two, .three, .four, .five {
@@ -7,7 +7,6 @@
     padding: 0px 20px 10px;
 }
 .one a, .two a, .three a, .four a, .five a {
-	display: block;
 	padding-bottom: 10px;
 }
 @font-face {
