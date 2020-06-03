@@ -1,3 +1,3 @@
 # Links
 Website Links
-Contains website links handy for use.
+This github page contains website links handy for use.
